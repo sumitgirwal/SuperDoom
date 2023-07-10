@@ -1,13 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Heading(props) {
   return (
     <div>
         Heading 
-
-        <h1>{props.title}</h1>
-        <h1>{props.context}</h1>
-        <h1>{props.price}</h1>
+        
+        <nav>
+            <Link to="/" >Home</Link>
+            <Link to="/about" >About</Link>
+            <Link to="/contact" >Contact</Link>
+        </nav>
 
     </div>
   )
