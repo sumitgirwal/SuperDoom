@@ -8,7 +8,7 @@ Live Demo Video:
 # Installation
 #### 1. Clone the repo
 ```bash
-git clone <url_link>
+git clone https://github.com/sumitgirwal/SuperDoom.git
 ```
 
 
